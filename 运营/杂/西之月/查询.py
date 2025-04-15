@@ -1,0 +1,132 @@
+'''
+=========================================================    
+       @File     : 查询.py
+       @IDE      : PyCharm
+       @Author   : Jing3
+       @Date     : 2025/3/4 12:10
+       @Desc     : 
+=========================================================   
+'''
+import requests
+
+
+headers = {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dlc3Rtb250aC5jb20vc2hvcF9hcGkvbG9naW4iLCJpYXQiOjE3NDEwNjA2NDgsIm5iZiI6MTc0MTA2MDY0OCwianRpIjoiVDd1c21Va1ZGbVVvVVRvYSIsInN1YiI6IjE5MjIyIiwicHJ2IjoiYWZhNjAxYjY3NmMxOTM4MGNjODBiY2RhZmY5NTMyMTZjY2I1Y2UxYyJ9.jPbmdT0YNbwSsiGZG7oV3CPrVr4x6L19vJLtrzdqC2I",
+    "cache-control": "no-cache",
+    "locale": "zh_cn",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "referer": "https://westmonth.com/products/all?indistinct=EAA01-A004-50-BK1",
+    "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+    "x-xsrf-token": "eyJpdiI6IkZHaUU4dnY4UlpVVzNwTzgwNDVPNXc9PSIsInZhbHVlIjoiWGR5am5PYjFNN2h2YW5YK3Q2aVpvQWUyWkJnb2VwYmI2b2VlUzZsU25UMktNNjFVRHlEUGJseC84UzVOTkZ3bjdpQ1JxaEpoZmtETlNWUTM1a1dnYlk2MlkrRkN4VWtyU3JNQmpCQU9DTG5nWmlPcFhsSFZpY1RqN3FtWTJnbzYiLCJtYWMiOiJkNzZkMWViMDIzMjY5NjBmOTE3ZjAwYzEyNmFmZjI0Y2VhNjgyNDM0NGQzODU4NjdhOTY3NjE5MWYwNWZlOWQ4IiwidGFnIjoiIn0="
+}
+sku_list=["EAA01-A004-50-BK1",
+"HOA05-A094-100-OG1",
+"mbhl1222gc02-自然色",
+"XIA06-A264-20-YE1",
+"HGA03-A098-100-VT1",
+"HGA03-A016-100-WH3",
+"EHA02-A002-10-WH1",
+"EE042301291-100ml",
+"EEA02-A018-35-MX1",
+"mfhf0011-奶奶灰",
+"ROA10-A021-30-BK1",
+"OU042302251-50ml",
+"EEA03-A252-100-MX1",
+"HOA02-A080-30-WH1",
+"HGA03-A098-100-RD1",
+"EE042301291-100ml-3",
+"EEA07-A022-1-GN1",
+"E标bmyjmy66rx01-10ml盒装",
+"mbhl1222gc02-深肤色",
+"mbhl1222gc02-自然色",
+"EEA05-A040-4-BU1",
+"EEA03-A030-30-WH1",
+"gtyj05814jl02-e标30ml盒装",
+"WEA02-A057-30-WH1",
+"EEA07-A006-20-BK1",
+"wsjxl014-30ml盒装",
+"SOA07-A005-30-BU1",
+"EEA03-A163-150-WH1",
+"EEA07-A022-1-GN1",
+"E标ycbstz630rx01-牙齿宝石套件",
+"ORA04-A036-120-WH2",
+"EEA02-A018-12-MX1",
+"EE042301291-100ml-自然棕",
+"ROA10-A057-100-WH1",
+"JAA03-A039-30-WH1",
+"EE04221181-60ml",
+"OCA06-A090-6-PK1",
+"JA01221141-30ml",
+"EEA09-A063-120-MX1",
+"ORA04-A025-50-WH1",
+"OUA09-A027-100-GN1",
+"fdy221yx01-30ml",
+"E标hjym819dn01-60pcs/盒",
+"EE012212213-100ml",
+"EEA03-A270-100-VT1",
+"NOA02-A003-50-BK1",
+"EEA05-A119-1-RD1",
+"HOA05-A080-50-YE1",
+"EEA05-A115-4-WH1",
+"EEA09-A077-1-GN1",
+"hfs75yx01-100ml",
+"EEA01-A028-60-WH1",
+"ROA10-A047-15-WH1",
+"JAA09-A023-30-BK2",
+"SM标ytn914yx01-20ml",
+"jwpw41yx01-50ml盒装",
+"EEA07-A016-1-WH1",
+"E标dbjy613yx01-蛋白质提线套装",
+"ORA04-A084-120-WH1",
+"ROA10-A023-30-PK1",
+"NOA03-A015-50-BK1",
+"OUA06-A149-100-YE1",
+"jhpw830yx01-100ml盒装",
+"OUA09-A008-55-BK1",
+"ROA10-A025-100-YE1",
+"EE-A06-0283-15",
+"OR-A04-0219-01",
+"ROA10-A029-50-BU1",
+"XIA06-A268-20-YE1",
+"EEA08-A046-120-RD1",
+"J标jhm427yx01-50g盒装",
+"OU022302071-天然米色",
+"ORA04-A075-1-BU1",
+"ORA04-A087-1-BU1",
+"E标stqjzltz416dn01-50g盒装",
+"JAA09-A001-50-BK1",
+"EEA09-A073-30-GN1",
+"shc1222yx01-30g",
+"OUA06-A211-30-WH1",
+"EEA08-A134-1-MX1",
+"HGA03-A012-100-GN2"]
+for i in sku_list:
+    url = "https://westmonth.com/shop_api/products/load_list"
+    params = {
+        "locale": "zh_cn",
+        "delivery_region_id": "",
+        "brandId": "",
+        "depot": "",
+        "categoryId": "0",
+        "newtime": "",
+        "certificateId": "0",
+        "sort_field": "3",
+        "sort_mode": "2",
+        "onlyShow": "0",
+        "page": "1",
+        "pagesize": "20",
+        "indistinct": i
+    }
+    response = requests.get(url, headers=headers, params=params)
+    print(response.json()['data']['data'][0]['product_id'])
+
+

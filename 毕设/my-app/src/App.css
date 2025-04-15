@@ -1,0 +1,14 @@
+/* App.css 或其他全局样式文件 */
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}

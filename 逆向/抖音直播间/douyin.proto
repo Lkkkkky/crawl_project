@@ -1,0 +1,109 @@
+syntax ="proto3";
+
+message PayloadInIm{
+  int32 CompressType=2;
+  map<string,string> Payloads =1;
+}
+message PushFrame{
+  uint64 SeqID =1;
+  uint64 LogID =2;
+  int32 service =3;
+  int32 method=4;
+  string payload_encoding=6;
+  string payload_type=7;
+  bytes payload=8;
+  string LodIDNew=9;
+}
+
+message Message{
+  string method =1;
+  bytes payload =2;
+  int64 msg_id =3;
+  int32 msg_type=4;
+  int64 offset=5;
+  bool need_wrds_store=6;
+  int64 wrds_version=7;
+  string wrds_sub_key=8;
+  map<string,string> message_extra=9;
+}
+message Response{
+    repeated Message messages =1;
+    string cursor=2;
+    int64 fetch_interval=3;
+    int64 now=4;
+    string internal_ext=5;
+    int32 fetch_type=7;
+    map<string,string> route_params=6;
+    int64 heartbeat_duration=8;
+    bool need_ack=9;
+    string push_server =10;
+    string live_cursor=11;
+    bool history_no_more =12;
+    string proxy_server =13;
+}
+
+   message MemberMessage {
+      Common common = 1;
+      Data.User user = 2;
+      uint64 member_count = 3;
+      Data.User operator = 4;
+      bool is_set_to_admin = 5;
+      bool is_top_user = 6;
+      uint64 rank_score = 7;
+      uint64 top_user_no = 8;
+      uint64 enter_type = 9;
+      uint64 action = 10;
+      string action_description = 11;
+      uint64 user_id = 12;
+      EffectConfig effect_config = 13;
+      string pop_str = 14;
+      EffectConfig enter_effect_config = 15;
+      Data.Image background_image = 16;
+      Data.Image background_image_v2 = 17;
+      Data.Text anchor_display_text = 18;
+      PublicAreaCommon public_area_common = 19;
+      uint64 user_enter_tip_type = 20;
+      uint64 anchor_enter_tip_type = 21;
+      map<string, string> buried_point = 22;
+      map<string, EffectConfig> alternative_effect_config = 23;
+      PicoEffectConfig pico_enter_effect_config = 24;
+
+      message EffectConfig {
+        uint64 type = 1;
+        Data.Image icon = 2;
+        uint64 avatar_pos = 3;
+        Data.Text text = 4;
+        Data.Image text_icon = 5;
+        int32 stay_time = 6;
+        uint64 anim_asset_id = 7;
+        Data.Image badge = 8;
+        repeated uint64 flex_setting_array = 9;
+        Data.Image text_icon_overlay = 10;
+        Data.Image animated_badge = 11;
+        bool has_sweep_light = 12;
+        repeated uint64 text_flex_setting_array = 13;
+        uint64 center_anim_asset_id = 14;
+        Data.Image dynamic_image = 15;
+        map<string, string> extra = 16;
+        uint64 mp4_anim_asset_id = 17;
+        uint64 priority = 18;
+        uint64 max_wait_time = 19;
+        string dress_id = 20;
+        uint64 alignment = 21;
+        uint64 alignment_offset = 22;
+        string effect_scene = 23;
+        map<string, Data.TextPiece> piece_values = 24;
+      }
+
+      message PicoEffectConfig {
+        uint64 type = 1;
+        Data.Image icon = 2;
+        Data.Text text = 3;
+        Data.Image text_icon = 4;
+        int32 stay_time = 5;
+        Data.Image badge = 6;
+        uint64 center_anim_asset_id = 7;
+        map<string, string> extra = 8;
+        string dress_id = 9;
+      }
+    }

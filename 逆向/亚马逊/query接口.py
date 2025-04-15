@@ -1,0 +1,205 @@
+import threading
+
+import requests
+import json
+import time
+import re
+import csv
+import pandas as pd
+from lxml import etree
+import random
+
+
+
+fi= open('goods1.csv',mode='w',encoding='utf-8',newline='')
+# 字典写入
+csv_writer=csv.DictWriter(fi,fieldnames=['name','价格','链接'])
+# 写入表头
+csv_writer.writeheader()
+cookies = {
+    "session-id": "144-7763590-4667826",
+    "i18n-prefs": "USD",
+    "lc-main": "zh_CN",
+    "sp-cdn": "\"L5Z9:CN\"",
+    "skin": "noskin",
+    "ubid-main": "135-9715754-8383864",
+    "session-token": "RLK+cYLxHyHdOSzPhxZ7PkDwEBmh6EnGp6JbK6JlEReOusgA72U8Xi/h/CMphIrmWLBrnkxUuvYYUVJMygr/mB/VKM6vEcpLwVpTE+4E/8QV23pgY6pnt320sN+TvAGMemkJCNppIK6SclhsQHJlW45hsLnFTtz/tsbHWPRQJG8lsO/IUT8oVutFiIW97THheVcQE5a/W2vGklx6+Wr3Swi3aykJoIZKF7wUi1iZ+B3Xoaukc5jCy7z+18XkVJSc50IsmXGMe65MI7GT0ixppL10uQHQ4leP8Nb0ZxiLbTNw9apEwHxM5mjSVSxzX+4wypcc5wqDsApl+edlzrclnY3t9ibXBSBA",
+    "JSESSIONID": "ADFFAB0DF6B5B798A71D7E6B16242385",
+    "id_pkel": "n0",
+    "id_pk": "eyJuIjoiMCJ9",
+    "session-id-time": "2082787201l",
+    "csm-hit": "tb:KXXKRD3R4P2E0JEC869A+s-8QWRZZ5CFPQ3RR86VFXJ|1732524973521&t:1732524973521&adb:adblk_no"
+}
+def post(page):
+    t = str(int(time.time()))
+    page=str(page)
+    headers = {
+        "accept": "text/html,image/webp,ajax/ajax,*/*",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "cache-control": "no-cache",
+        "content-type": "application/json",
+        "device-memory": "8",
+        "downlink": "1.35",
+        "dpr": "1",
+        "ect": "4g",
+        "origin": "https://www.amazon.com",
+        "pragma": "no-cache",
+        "priority": "u=1, i",
+        "referer": f"https://www.amazon.com/-/zh/s?k=%E9%A6%99%E6%B0%B4&page={page}&__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&crid=2W9URSHSWWR7E&qid={t}&sprefix=xiangsh%2Caps%2C306&ref=nb_sb_noss_{int(page)-1}",
+        "rtt": "250",
+        "sec-ch-device-memory": "8",
+        "sec-ch-dpr": "1",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-ch-ua-platform-version": "\"10.0.0\"",
+        "sec-ch-viewport-width": "1912",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "viewport-width": "1912",
+        "x-amazon-rush-fingerprints": "AmazonRushAssetLoader:1202F8AA9B9E3A62A246BF3FA42812770110C222|AmazonRushFramework:EC446FBE6D4385B7660F56A844F4D427DE175225|AmazonRushRouter:15D9B6124DC03EC360DD1DF8362BD9C8156D4486",
+        "x-amazon-s-fallback-url;": "",
+        "x-amazon-s-mismatch-behavior": "ABANDON",
+        "x-amazon-s-swrs-version": "C64040577D6105D1043686EC2CBD919A,D41D8CD98F00B204E9800998ECF8427E",
+        "x-requested-with": "XMLHttpRequest"
+    }
+
+    url = "https://www.amazon.com/s/query"
+
+    params = {
+        "__mk_zh_CN": "亚马逊网站",
+        "crid": "2W9URSHSWWR7E",
+        "k": "香水",
+        "page": page,
+        "qid": t,
+        "ref": "sr_pg_1",
+        "sprefix": "xiangsh,aps,306"
+    }
+    data = {
+        "page-content-type": "atf",
+        "prefetch-type": "rq",
+        "customer-action": "pagination"
+    }
+    data = json.dumps(data, separators=(',', ':'))
+    response = requests.post(url, headers=headers, cookies=cookies, params=params, data=data)
+
+    try:
+        cookies['session-token'] = response.cookies.get_dict()['session-token']
+
+    except KeyError:
+        print('无需更新token')
+    try:
+        rrid = response.headers['x-amz-rid']
+        print(rrid)
+        prefetch_ajax_data = re.findall("payload\" : \"(.*?)\"", response.text)[0]
+        return response, rrid, prefetch_ajax_data, t, params
+    except:
+        print('风控')
+def sec_post(page,rrid,prefetch_ajax_data,t,params):
+    sec_headers = {
+        "accept": "text/html,image/webp,ajax/ajax,*/*",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "cache-control": "no-cache",
+        "content-type": "application/json",
+        "device-memory": "8",
+        "downlink": "1.4",
+        "dpr": "1",
+        "ect": "4g",
+        "origin": "https://www.amazon.com",
+        "pragma": "no-cache",
+        "priority": "u=1, i",
+        "referer": f"https://www.amazon.com/-/zh/s?k=%E9%A6%99%E6%B0%B4&page={page}&__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&crid=2W9URSHSWWR7E&qid={t}&sprefix=xiangsh%2Caps%2C306&ref=nb_sb_noss_{page}",
+        "rtt": "150",
+        "sec-ch-device-memory": "8",
+        "sec-ch-dpr": "1",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-ch-ua-platform-version": "\"10.0.0\"",
+        "sec-ch-viewport-width": "1912",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "viewport-width": "1912",
+        "x-amazon-rush-fingerprints": "AmazonRushAssetLoader:1202F8AA9B9E3A62A246BF3FA42812770110C222|AmazonRushFramework:EC446FBE6D4385B7660F56A844F4D427DE175225|AmazonRushRouter:15D9B6124DC03EC360DD1DF8362BD9C8156D4486",
+        "x-amazon-s-fallback-url": "https://www.amazon.com/-/zh/s?k=%E7%94%B5%E8%84%91&page=11&__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&crid=36LGZVZRFXCYL&qid=1732213757&sprefix=diannao%2Caps%2C321&ref=sr_pg_11",
+        "x-amazon-s-mismatch-behavior": "FALLBACK",
+        "x-amazon-s-swrs-version": "C64040577D6105D1043686EC2CBD919A,D41D8CD98F00B204E9800998ECF8427E",
+        "x-requested-with": "XMLHttpRequest"
+    }
+
+    sec_data = '{"rrid":"' + rrid + '","wIndexMainSlot":7,"prefetch-ajax-data":"' + prefetch_ajax_data + '","page-content-type":"btf","prefetch-type":"log","customer-action":"pagination"}'
+    url = "https://www.amazon.com/s/query"
+    response = requests.post(url, headers=sec_headers, cookies=cookies, params=params, data=sec_data)
+    return response
+
+
+def clean_data(res):
+    res = res.replace('&&&', ',').strip()[:-1]
+    return f'[{res}]'
+
+
+def search_result_list(res):
+    for i in res:
+        if ("data-main-slot:search-result" in i[1]):
+            # print(i[1],end='--->')
+            result_text = i[2]['html']
+            result_html = etree.HTML(result_text)
+
+            try:
+                good_name = result_html.xpath('//span[@class="a-size-medium a-color-base a-text-normal"]/text()')[0]
+                good_price = result_html.xpath('//span[@class="a-offscreen"]/text()')[0]
+                good_href = 'https://www.amazon.com' + result_html.xpath(
+                    '//a[@class="a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal"]/@href')[
+                    0]
+            except:
+                good_name = ''
+                good_price = 0
+                good_href = ""
+            goods_dict = {
+                'name': good_name,
+                '价格': good_price,
+                '链接': good_href,
+
+            }
+
+            csv_writer.writerow(goods_dict)
+            print(good_name, end=' ')
+            print(good_price, end=' ')
+            print(good_href)
+
+def task(page):
+    for i in range(page, page + 1000):
+        first_response, rrid, prefetch_ajax_data, t, params = post(i)
+        fist_res_json = json.loads(clean_data(first_response.text))
+        search_result_list(fist_res_json)
+        # 第二个包
+        sec_response = sec_post(i, rrid, prefetch_ajax_data, t, params)
+        sec_res_json = json.loads(clean_data(sec_response.text))
+        search_result_list(sec_res_json)
+        time.sleep(5)
+    df = pd.read_csv('song.csv')
+    df_deduplicated = df.drop_duplicates( subset=['name'])
+    # 保存去重后的 CSV 文件
+    df_deduplicated.to_csv('out.csv', index=False,encoding='utf-8')
+    print('去重成功')
+# print(clean_data(response.text))
+post(2)
+
+# 去重
+# print(clean_data(response.text))
+
+
+
+
+# for i in range(25,50):
+#     first_response,rrid,prefetch_ajax_data,t,params = post(i)
+#     fist_res_json = json.loads(clean_data(first_response.text))
+#     search_result_list(fist_res_json)
+#     # 第二个包
+#     sec_response = sec_post(i,rrid,prefetch_ajax_data,t,params)
+#     sec_res_json = json.loads(clean_data(sec_response.text))
+#     search_result_list(sec_res_json)

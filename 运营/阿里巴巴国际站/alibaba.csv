@@ -1,0 +1,256 @@
+companyUrl,companyName,name,phone,address
+//xiou.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600979208048,"Guangzhou Shihe Trading Co., Ltd.",广州时贺贸易有限公司,18026201517,广州市白云区鹤龙街道联边彭上德兴路15号501房之一
+//cnfindakera.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601219747525,"Jinjiang Fengdakailai Garment Co., Ltd.",晋江丰达凯莱服饰有限公司,0595-85239277,福建省泉州市晋江市龙湖镇埔锦村工业区1号光华电子11栋
+//dwnglass.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600945475464,"Xuzhou Deweino Glass Products Co., Ltd.",暂无公司中文名称,暂无联系方式,暂无联系地址
+//mishiqi.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600830164395,"Huizhou Mishiqi Watch Co., Ltd.",惠州市米士奇钟表有限公司,15899921109,博罗县石湾镇中岗村第四份地块上的厂房第二层
+//fenqibag.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600471352187,"Guangzhou Fenqi Leather Co., Ltd.",广州市芬琦皮具有限公司,13312837287,广州市白云区南岭南业八横路东三巷1号2栋301房
+//qdshuangling.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601257720964,"Qingdao Shuangling Garment Co., Ltd.",青岛双令服装有限公司,13370801155,山东省青岛市黄岛区(原开发区长江中路467号1单元1304户)
+//moonhair.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601165371396,"Henan Moon Hair Products Co., Ltd.",河南沐恩发制品有限公司,13137401199,河南省郑州市二七区航海路祥云路正商航海广场A座1108室
+//hickin.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601191865013,"Yuzhou Shengtongmao Hair Products Co., Ltd.",禹州市盛通茂发制品有限公司,15290978887,禹州市东产业园和谐大道11号
+//kstwatch.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601193415257,"Shenzhen Kastar Timepieces Co., Ltd.",深圳科时达表业有限公司,13923763323,深圳市宝安区西乡街道凤凰岗第三工业区B7栋5楼
+//biusee.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600317288014,"Yiwu Biusee Import & Export Co., Ltd.",义乌市比柚西进出口有限公司,15325894398,中国(浙江)自由贸易试验区金华市义乌市城西街道西城路2868号4楼(自主申报)
+//jzksy.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601048112178,"Hebei Kang Sheng Yuan Sports Goods Co., Ltd.",河北康生缘体育用品有限公司,0318-5168289,衡水市冀州区开元路999号北区1-1南
+//yeswigshair.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601001337120,"Henan Fadu Industrial Co., Ltd.",河南发都实业有限公司,18710829983,河南省许昌市经济技术开发区瑞祥路2087号1幢
+//cumy.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600984898605,"Shangrao Caidu Clothing Co., Ltd.",上饶市彩度服饰有限公司,18970366182,江西省上饶市信州区凤凰中大道369号20--22幢21-2-8
+//fansha.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601048494975,"Yiwu Fansha Glasses Co., Ltd.",义乌市梵莎眼镜有限公司,18757855359,浙江省金华市义乌市北苑街道春晗三区25栋5单元2楼(自主申报)
+//aodunglasses.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601167272908,"Taizhou Aodun Glasses Co., Ltd.",台州市奥盾眼镜有限公司,13656574921,浙江省台州市临海市杜桥镇汾东村10-48号2幢2楼西边第2间(自主申报)
+//dichuang1.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601028089502,"Yiwu D-Create Clothing Co., Ltd.",义乌市蒂创服饰有限公司,18067650612,浙江省义乌市城西街道圣达北街18号10楼(自主申报)
+//nathan168.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601208812372,"Dongguan Naisen Clothing Co., Ltd.",东莞市耐森服饰有限公司,13537005217,广东省东莞市虎门镇龙眼六路67号1栋401室
+//hccy.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=10000013663353,"Hechuan Color Printing(Guangzhou) Technology Co., Ltd.",合川彩印（广州）科技有限公司,13533396095,广州市黄埔区宏明路4号自编01号(部位:科技楼108房)
+//betopmax.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600972109138,"Zhuji Zhongding Knitting Co., Ltd.",诸暨中定纺织有限公司,15906753239,浙江省绍兴市诸暨市大唐街道轻纺北路999号骏宏袜业智能产业园厂房21-000104室01、21-000204室
+//hxdpack.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601166433620,"Shenzhen Huaxinda Printing Co., Ltd.",深圳市华新达印刷有限公司,13823309708,深圳市龙岗区宝龙街道龙新社区兰水工业区7号A栋101、201、301
+//heer.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600477390203,"Yiwu Heer Clothing Co., Ltd.",义乌市禾尔服饰有限公司,15325894398,中国(浙江)自由贸易试验区金华市义乌市城西街道西城路2868号厂房4楼(自主申报)
+//rongxingarment.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601200803124,"Dongguan Rongxin Garment Co., Ltd.",东莞市荣鑫服装有限公司,13465345558,广东省东莞市虎门镇玻纤路17号601室
+//zorssarhair.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600687193505,"Xuchang Jian'an Area Usexy Trading Co., Ltd.",许昌市建安区优赛丝商贸有限公司,18637425025,许昌市瑞贝卡大道东段
+//outdoor01.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601223672549,"Hangzhou Everich Outdoor And Sporting Goods Co., Ltd.",杭州同富户外用品有限公司,0571-87923688,浙江省杭州市上城区九盛路9号A17幢5楼525室
+//mingtairv.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601184262032,"Shandong Mingtai Modular Integrated Housing Co.,Ltd.",暂无公司中文名称,暂无联系方式,暂无联系地址
+//jinkecn.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601211484055,"Quanzhou Jinke Garments Co., Ltd.",泉州金科服装有限公司,0595-68296068,福建省泉州市鲤城区浮桥街504号
+//siweipackaging.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600349400794,"Guangdong Siwei Packaging Co., Ltd.",广东四维包装有限公司,18665028180,佛山市南海区里水镇沙涌沙步开发区横一路1号厂房(住所申报)
+//gdmingao.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601088374379,Jieyang City Jiedong Xichang Town Mingao Glasses Factory,暂无公司中文名称,暂无联系方式,暂无联系地址
+//aoqier.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601173831584,"Hebei Xiongan Fufei Technology Co., Ltd.",河北雄安富飞科技有限公司,19933335666,河北省保定市容城县晾马台镇南剧村聚贤街75号
+//yimehair.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600909591214,"Guangzhou Yimei Hair Products Co., Ltd.",广州逸美发制品有限公司,15920850069,广州市白云区鹤龙街黄边北路152号8楼804室
+//cgcontainer.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600198309526,"Guangdong Zhonghuilvjian Moving House Technology Co., Ltd.",广东中辉绿建移动房屋科技有限公司,13612285383,广东省佛山市顺德区大良街道五沙社区新悦路18号首层之十六(住所申报)
+//xmpakstar.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601137484214,"Xiamen Pakstar Packaging Technology Co., Ltd.",厦门柏思达包装科技有限公司,15980831927,厦门市同安区新民镇集祥路59-2号301室
+//aeor.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600953831040,"Guangzhou Aeor Inflatable Co., Ltd.",广州奥亚儿玩具有限公司,13902269206,广州市白云区钟落潭镇光明纤家围街89号之2号(自主申报)
+//pjyygm.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601172769315,"Pujiang Yuyao Industrial And Trading Co., Ltd.",浦江语瑶工贸有限公司,13777505222,浙江省浦江县仙华街道保尔路17号
+//xuanzhenfurniture.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600591052134,"Foshan Xuanzhen Furniture Co., Ltd.",佛山市璇臻家具有限公司,15813650819,佛山市禅城区石湾镇街道汾江南路38号世博金融中心27层2707单元(住所申报)
+//srsxwfs.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601238921389,"Shangrao Xinwei Clothing Co., Ltd.",上饶市辛未服饰有限公司,18707935440,江西省上饶市横峰县岑阳大道301号上饶新零售电商产业城40号楼1幢301
+//udindustry.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=62312913775,"Henan UrDream Industry Co., Ltd.",河南佑立实业有限公司,18695881988,河南省郑州市郑东新区康平路与永平路交叉口郑东商业中心C区1号楼903号
+//cnhanpai.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601115325457,"Yongkang Hanpai Industry And Trade Co., Ltd",永康市韩派工贸有限公司,13686876206,浙江省金华市永康市石柱镇永东村泉湖自然村297号第二幢二楼(自主申报)
+//wxyjfs.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601224675708,"Wuxi Yanjia Dress Co., Ltd.",无锡市燕家服饰有限公司,15895377288,江阴市祝塘镇建南路3号
+//gdace.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601151676934,"Jieyang Ace Metal And Plastic Co., Ltd.",揭阳市艾斯五金塑胶有限公司,13417618762,揭阳市榕城区梅云伯劳工业区
+//jylixin.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601199156168,Jieyang City Rongcheng District Lixin Metal And Plastic Factory,揭阳市榕城区利兴五金塑料厂,,渔湖塘埔村
+//fuxinhair03.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600732111218,"Xuchang Fuxin Hair Products Co., Ltd.",许昌富鑫发制品有限公司,13849522760,许昌市建安区尚集镇繁荣路与尚德路交汇处
+//xiaomaiya.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600597225113,"Foshan Xiaomaiya Clothing Co., Ltd.",佛山市小唛牙服饰有限公司,18665453573,佛山市禅城区朝东村朝二七亩工业区D座三楼(住所申报)
+//everich9.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600891517155,Everich Commerce Group Limited,杭州同富云商科技有限公司,0571-87923668,浙江省杭州市上城区华联时代大厦A幢2901室、2902室、2903室、2904室、2905室、2906室
+//cn1558042623oidu.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600707011086,"Shanghai Pingui International Trade Co., Ltd.",上海品柜国际贸易有限公司,13262871723,上海市金山区朱泾镇临源街750号2幢(新农经济小区)
+//pjswd8.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600695244000,"Pujiang Shengwending Garment Co., Ltd.",浦江县圣文鼎服饰有限公司,15705816449,浙江省浦江县宏业大道771-1号第六层
+//wuxingganggou.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601151450693,"Hong Kong Five Star Steel Technology Co., Limited",香港五星鋼構科技有限公司,,"ROOM S239, 2\u002FF, THE CAPITAL, 61-65 CHATHAM ROAD SOUTH, TSIM SHA TSUI, HONG KONG"
+//yzfy.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600975825387,"Liaoning Universe Feiyi Display Co., Ltd.",暂无公司中文名称,暂无联系方式,暂无联系地址
+//helia.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601156479152,"Guangzhou Wenjiasheng Network Technology Co., Ltd.",广州文嘉晟网络技术有限公司,13607912780,广州市白云区鹤龙街道黄边北路150号之一1401、1402a室
+//mlpackaging.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=62241130062,"Guangzhou Minglai Packaging Co., Ltd.",广州市明莱包装制品有限公司,13533956748,广州市增城区新塘镇环保二路8号之二四楼
+//zhongjinggz.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601252759909,"Guangzhou Zhongjing Clothing Co., Ltd.",广州中精服饰有限公司,13997648422,广州市番禺区南村镇江南村南约大道15号401铺
+//mikeoptical.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600979791837,"Wenzhou Mike Optical Co., Ltd.",温州迈克光学有限公司,0577-88865073,浙江省温州市鹿城区南郊街道里垟新路30号245室
+//zjrjzn.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601243641837,"Zhejiang Rongji Intelligent Manufacturing Co., Ltd.",浙江容基智能制造有限公司,,浙江省温州市乐清市城东街道宁康东路1115号608室
+//fslandscape.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601217313727,"Guangdong Lujing Technology Industrial Co., Ltd.",广东璐景科技实业有限公司,18588638581,佛山市三水区芦苞镇展凌路7号之一(住所申报)
+//nairbag.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600850903959,"Zhaoqing Nairbag Sports Co.,Ltd",肇庆耐比体育用品有限公司,18575808666,肇庆市端州区信安三路3号敏捷广场四期C幢912室
+//huanwei.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601200344065,"Hangzhou Huanwei Trading Co., Ltd.",杭州焕威贸易有限公司,18042013057,浙江省杭州市富阳区东洲街道建华村
+//tftmk2.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600909052852,"Everich And Tomic Housewares Co., Ltd.",浙江同富特美刻股份有限公司,0571-86090372,浙江省杭州市上城区九盛路9号A17幢5楼530室
+//gzyanmei.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601198712684,Guangzhou Baiyun Yanmei Cosmetics Factory,广州市白云区研美化妆品厂,15013100688,广州市白云区均禾街长红村第二工业区企索路2号
+//czeman.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601004089237,"Chaozhou Jiesi Electronic Commerce Co., Ltd.",潮州市界斯电子商务有限公司,15857942330,潮州市潮安区彩塘镇华美二村新安大道裕隆鞋材后面办公楼第4层
+//njxx.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600876003664,"Nanjing Xuexin Clothing Co., Ltd.",南京雪欣服饰有限公司,15195887962,南京市江宁区万安北路99号创智Park1号楼901室
+//highknight.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600582433899,"Qingdao Highknight Industry & Trade Co., Ltd.",青岛高爵工贸有限公司,18006487327,山东省青岛市胶州市上合示范区长江一路2号上合国际贸易大厦
+//rxhair.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600467154676,"Xuchang Weiken Hair Products Co., Ltd.",许昌威肯发制品有限公司,13639668766,河南省许昌市建安区灵井镇工业园2排2号
+//wncf.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601171690102,"Taizhou Wannuo Chuangfeng Daily Necessities Co., Ltd.",台州市万诺创峰日用品有限公司,,浙江省台州市黄岩区新前街道拱新大道158号(自主申报)
+//springplanting.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601168650324,"Chongqing Spring Planting International Trade Co., Ltd.",重庆春种夏满国际贸易有限责任公司,13883978997,重庆市沙坪坝区石碾盘88号附1号31-11
+//yzjlhorse.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601202281514,Yizheng Jian Lin Arts Company,仪征市健林工艺品厂,15252774858,仪征市大仪镇香沟村大梁组
+//dwmachine.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601236217187,"Shandong Dongwang Machinery Manufacturing Co., Ltd.",山东东旺机械制造有限公司,15563485997,山东省济宁市任城区李营街道中德广场C座619
+//chinahousefactory.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601008458328,"Heshi (hengshui) Technology Co., Ltd.",合十（衡水）科技有限公司,15613151690,河北省衡水市武邑县武邑镇欢龙路8号105室
+//umdhouse.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601116672300,"Xiamen Umd Industrial Co., Ltd",厦门优美度实业有限公司,15260139752,厦门火炬高新区火炬园新丰三路16号(日华国际大厦)502室A1-2单元
+//cqmcjx.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601202252744,"Chongqing Meicheng Machinery Parts Co., Ltd.",重庆市镁城机械配件有限公司,18883272356,重庆市大足区龙水镇工业园区北2路10号
+//bailingwood.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601220421047,"Shouguang Bailing Wood Co., Ltd.",寿光市百灵木业有限公司,0536-5780192,寿光文家潍高路与西环路交界处
+//dongjihouse.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600929001589,"Suzhou Dongji Integrated Housing Technology Co., Ltd.",苏州东基集成房屋科技有限公司,13405636559,中国(江苏)自由贸易试验区苏州片区苏州工业园区翠薇街9号月亮湾国际商务中心1幢1601室008单元
+//qdshimaogroup.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600318607118,"Qingdao Oriental Shimao Import And Export Co., Ltd.",青岛东方世茂进出口有限公司,18306483516,山东省青岛市黄岛区王台镇逄猛张工业园逄猛张路118号
+//baofengclothing.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601190677704,"Dongguan Humen Baofeng Fashion Design Co., Ltd.",东莞市虎门宝峰服装设计有限公司,18025172720,广东省东莞市虎门镇白沙中心南路40号302室
+//dxprefabhouse.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600918930190,"Suzhou Daxiang Container House Co, Ltd.",苏州大向集成房屋有限公司,17327147352,苏州工业园区津梁街172号华润万家园区店L5002-066室
+//yk2002china.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601055029494,"Dongguan Yuankang Toys Manufacture Co., Ltd.",东莞市源康玩具制造有限公司,13825708171,广东省东莞市寮步镇凫山兴山路176号103室
+//beyman.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601236484232,"Yangzhou Beyman Toys Co., Ltd.",扬州贝漫玩具有限公司,18796662135,扬州市高新技术开发区吉安南路158号创富工场4号北楼305室
+//jumpairbag.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600772797445,"Guangzhou Powerful Toys Co., Ltd.",广州维荔大玩具有限公司,18680268242,广州市白云区人和镇高增大街99号第四栋105
+//fx-drinkwares.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601250330880,"Yongkang Fuxin Vacuum Containers Co., Ltd.",暂无公司中文名称,暂无联系方式,暂无联系地址
+//yjhehui.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600993774993,Yangjiang Hehui Industry & Trade Co.,阳江市合辉工贸有限公司,15986256033,阳江市阳东区东城镇那味工业区(二期)J3-2(住所申报)
+//hadsock.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600346285939,"Haining Had Trading Co., Ltd.",海宁市恒安达商贸有限公司,13567302567,浙江省嘉兴市海宁市周王庙镇博儒桥郁家兜1-11号1号楼
+//honlufoodcart.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=62177227419,"Henan Honlu Machinery Equipment Co., Ltd.",河南鸿路机械设备有限公司,13526400256,河南省郑州市管城回族区紫东路127号C座14层1402号
+//mqatz.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=60815544125,"Guangzhou Meiqiai Garment Co., Ltd.",广州梅琪爱服装有限公司,020-81014177,广州市荔湾区桥中中路165号十六层1609房(仅限办公)
+//hnhadsocks.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600329308133,"Haining HAD Socks Co., Ltd.",海宁汉德袜业有限公司,13567302567,海宁市周王庙镇博儒桥村(博儒桥村经济合作社旁)
+//veidoosz.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600581490467,"Shenzhen Veidoo Digital Vision Co., Ltd.",深圳市维度数码视讯有限公司,13798410158,深圳市龙岗区吉华街道甘坑社区布澜路137号赛兔数码工业厂区厂房6栋4B
+//yizedisplay.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601001184959,"Shenzhen Yize Display Products Co., Ltd.",深圳市意泽展示制品有限公司,13714910329,"深圳市宝安区福海街道桥头社区立新路2号天佑创客产业园F栋-214公司在深圳市宝安区新桥街道新二社区庄村二路15号2层A区设有经营场所,从事生产经营活动"
+//packagingprovider.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600725507825,"Shanghai Woods Packaging Co., Ltd.",上海森林包装材料有限公司,13262222888,上海市奉贤区大叶公路5225号5幢4346室
+//qdtruth.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600125863782,"Qingdao Truth Technology Co., Ltd.",青岛初实科技有限公司,18306483516,山东省青岛市黄岛区长江中路216号城市桂冠A2508室
+//baoliyx.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600663336881,"Guangzhou Baoli Animation Technology Co., Ltd.",广州宝利动漫科技有限公司,13600467796,广州市番禺区大龙街市新路501号A座102
+//havaswheel.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601046360718,"Jiangsu Hawes Intelligent Technology Co., Ltd.",江苏哈威斯智能科技有限公司,13961094445,泰兴市古溪镇横垛社区创业路10-2号
+//happyplush.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600247270647,"Shanghai Qianjiu Trading Co., Ltd.",上海黔久商贸有限公司,18611911008,上海市嘉定区澄浏中路3198弄35号B101室-1
+//szkixin002.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600706194683,"Shenzhen Kixin Electronics Co., Ltd.",深圳市开心电子有限公司,15118008932,"深圳市龙华区民治街道大岭社区安宏基天曜广场1栋A座29A01,大浪街道新石社区华宁路40号港深创新园B栋201"
+//zjlyw.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600924311110,"Zhejiang Linyuanwai Material Technology Co., Ltd.",浙江霖园外材料科技有限公司,13587274055,浙江省湖州市安吉县递铺街道古鄣东路777号中国物流浙江(安吉)现代物流园2号楼2单元1015室(自主申报)
+//zzglorymachine.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600909285899,Zhengzhou Glory Enterprise Development Corporation,郑州格莱瑞商贸有限公司,13603453766,郑州高新技术产业开发区金梭路33号1幢1单元19层962号
+//crplastic.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601121302663,"Taizhou Chenran Packaging Technology Co., Ltd",台州辰然包装科技有限公司,0576-81719282,浙江省玉环市金海大道77号
+//heshihouse.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600966029594,"Heshi (Hebei) integrated housing Co., LTD",合十（河北）集成房屋有限公司,15613151690,河北省衡水市武邑县经济开发区欢龙路3号302室
+//haohaohair.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600607836259,"Qingdao Haohao Hair Products Co., Ltd.",青岛昊昊发制品有限公司,0532-88265688,山东省青岛市胶州市李哥庄镇周臣屯村
+//architecture.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600630286084,"Xiamen Sunfine Architect & Construction Co., Ltd.",暂无公司中文名称,暂无联系方式,暂无联系地址
+//shsilang.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=10000005192542,"Shanghai Silang Industrial Co., Ltd.",上海斯郎实业有限公司,021-59773379,上海市松江区泖港镇中厍路181号
+//coocfurniture.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601220032209,"Cooc International Co., Ltd.",\u003Cem\u003ECooC\u003C\u002Fem\u003Eo Limited,,"ROOM 3, 16\u002FF, EMPRESS PLAZA, 17-19 CHATHAM ROAD SOUTH, TSIM SHA TSUI, HONG KONG"
+//gzzdsm.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601159626038,"Guangzhou Zhongda Smart Technology Co., Ltd.",广州中达智能科技有限公司,13600467796,广州市番禺区大龙街金龙路193号之十六301
+//gdsteelmark.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601030116192,"Guangzhou Guose Intelligent Technology Co., Ltd.",广州市国色智能科技有限公司,13189066985,广州市白云区西槎路423号-(部位:三楼311室)
+//bbpaperpack.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600633710549,"Guangzhou Baobang Paper-Plastic Products Co., Ltd.",广州市宝邦纸塑制品有限公司,18027381012,广州市海珠区江南大道中180号3212房(仅限办公)
+//peicheng.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601080088144,"Shenzhen Peicheng Technology Co., Ltd.",深圳市佩城科技有限公司,13537838325,深圳市宝安区西乡街道臣田社区宝田工业区64栋5层(一照多址企业)
+//sdnuote.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601197007716,"Shandong Nuote Machinery Co., Ltd.",山东诺特机械有限公司,15646738997,山东省济宁市兖州区新兖镇经济开发区地质勘探院南88米东程集团院内
+//tongru61.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600545959677,"Guangzhou Tongru Electronic Equipment Co., Ltd.",广州童茹电子科技有限公司,13342801111,广州市番禺区东环街市桥东环路120号2号楼301房
+//shandongwuqiongda.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600983386628,"Shandong Endless Landscape Technology Co., Ltd.",暂无公司中文名称,暂无联系方式,暂无联系地址
+//cnaofu.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600898850026,"Hebei Aofu Wiremesh Manufacture Co., Ltd.",河北澳富丝网制造有限公司,13903183786,河北省衡水市安平县西两洼乡西两洼村村东100米处
+//caravancampers.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600737704251,"Guangdong Ecocampor Vehicle Co., Ltd.",广东奇拓野营车辆实业有限公司,0757-81632929,佛山市三水区白坭镇汇盈路7号厂房1三至四层、厂房2(住所申报)
+//jxrainbowfurniture.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600947341344,"Jiangxi Rainbow Furniture Co., Ltd.",江西蕾恩博家具有限公司,18079731288,江西省赣州市南康区龙岭镇家具产业园沈阳路D栋厂房一楼
+//wecareindustry.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601076056094,"Henan Wecare Industry Co., Ltd.",河南威凯实业有限公司,0371-63310755,河南自贸试验区郑州片区(郑东)普惠路78号1号楼23层235号
+//reddyfun.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600935693614,Guangzhou Reddy Fun Equipment Ltd.,广州瑞迪游乐设备有限公司,13068894216,广州市白云区钟落潭镇雄伟博龙路8号105铺
+//vanway.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600375199534,"Shandong Wonway Machinery Co., Ltd.",山东万维机械有限公司,15646738997,山东省济宁市兖州区经济开发区地质勘探院南88米东程集团院内
+//ythello.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601012324689,"Yantai Hello Inflatables Co., Ltd.",烟台哈喽气模有限公司,15005352086,山东省烟台市芝罘区冰轮西路5号
+//steelmarkhouse.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600559271967,"Guangzhou Xingang Steel Structure Housing Co., Ltd",广州市鑫钢钢结构房屋有限公司,15625117002,广州市白云区西槎路423号-(部位:三楼312室)
+//alluniverse.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601057734989,"Qingdao All Universe Machinery Equipment Co., Ltd.",青岛奥煜卓机械设备有限公司,0532-82185333,山东省青岛市黄岛区海洋装备产业园北四路与珠山北路交界处南200米
+//miraclefurniture.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601126417722,"Shenzhen Mino Furniture Co., Limited",深圳米诺家具有限公司,13530410853,深圳市坪山区坪山街道六联社区坪山大道2003号龙光玖云著1栋1219
+//2-space.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=62340485268,"Shenzhen Yuda Crafts Co., Ltd.",深圳市宇达工艺品有限公司,13670259427,深圳市宝安区沙井大王山第三工业区A1栋7楼A
+//hongliwiremesh.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600724767541,"Anping County Honly Metal Products Co.,Ltd",安平县宏利金属制品有限公司,17832289222,安平县高新技术产业开发区经四路21号
+//ruilitruck.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600891612494,"Hubei Ruili Automobile Co., Ltd.",湖北瑞力汽车有限公司,0722-3920999,湖北省随州市裕民大道18号
+//pgwiremesh.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600523859094,"Anping County Peiguan Metal Wire Mesh Products Co., Ltd.",安平县佩冠金属丝网制品有限公司,13363302698,河北省衡水市安平县东黄城镇南侯疃村东1000米处
+//xmyiree.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600890920963,"Xiamen Yiree Smart Industries Co., Ltd.",厦门谊瑞智能制造有限公司,0592-6285161,厦门市集美区杏林中宛路5号
+//jiahuachina.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=60578391924,"Yongkang Jiahua Electronic & Mechanical Co., Ltd.",永康市佳华机电有限公司,18857957562,浙江省金华市永康市西城街道玉桂路61号第三幢(自主申报)
+//exmic.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601118675860,"Guangdong Excellence Modular Building Technical Service Co., Ltd.",广东卓越模块化建筑技术服务有限公司,,广州市白云区均禾街罗岗七星岗工业路31号104铺
+//chengchuangwiremesh.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600992594916,"Anping County Cheng Chuang Metal Products Co., Ltd.",安平县诚创金属制品有限公司,13315801211,"安平县纬二路南,经四路西12号"
+//szpowertime.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600975050287,"Shenzhen Shengle Digital Technology Co., Ltd.",深圳市盛乐数码科技有限公司,18948759888,深圳市龙岗区坂田街道新雪社区上雪路1号华兴工业园A4栋三层
+//chinayoufine.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=60713996427,"Zhengzhou You Fine Art Co., Ltd.",郑州优凡商贸有限公司,0371-55912151,河南省郑州市管城回族区航海路南、腾飞路西万科美景龙门A座2415室
+//annahair.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600536911711,"Guangzhou Magic Hair Products Co., Ltd.",广州发魔美发用品有限公司,15360019970,广州市越秀区广园西路121号安华美博城C座二层1号商铺
+//yamaneyacht.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=60807668332,"Qingdao Yamane Ryu Yacht Manufacturing Co., Ltd.",青岛山根龍游艇制造有限公司,13280823350,山东省青岛市黄岛区明关路928号院内2号车间
+//yiwubingfeng.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600163336768,"Yiwu Bingfeng Trading Co., Ltd.",义乌市冰锋贸易有限公司,13957918049,浙江省金华市义乌市后宅街道洪华小区102栋2单元301室(自主申报)
+//kinlifegroup.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600548896331,"Foshan Kindle Technology Co., Ltd.",佛山市奇润智能技术有限公司,0757-81205623,佛山市三水区白坭镇汇通路4号5栋、7栋(住所申报)
+//skylanddoor.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600985632040,"Foshan Skyland Door And Window Technology Co., Ltd.",佛山市斯凯兰门窗科技有限公司,13924560817,佛山市南海区大沥镇太平南工业区太兴路86号之五(住所申报)
+//water-treatment.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601172652872,"Shenzhen Youber Technology Co.,ltd",深圳市优贝尔科技有限公司,13554794782,深圳市坪山区碧岭街道碧岭社区坪山金碧路472-5号B栋201(一照多址企业)
+//plastics-gd.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600903814520,"Huizhou Plastics Commercial Co., Ltd.",惠州市普乐斯吉克商贸有限公司,0752-5807720,惠州市惠城区水口街道办东江工业区B-B01
+//yaqiwiremesh.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600447514563,"Anping Yaqi Wire Mesh Products Co., Ltd.",安平县亚奇丝网制品有限公司,13932825518,安平县安平镇南张沃村北600米处
+//huaxi1236.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600461683770,"Shenzhen Huaxi Electronic Technology Co., Ltd.",深圳市华熹电子科技有限公司,,深圳市龙岗区南湾街道香叶路5号金积嘉工业4F
+//jcsportlinepro.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600696498361,"Shenzhen Chejiashi Technology Co., Ltd.",深圳市车甲士科技有限公司,13510434165,深圳市龙岗区园山街道保安社区红棉四路23号新能源汽车城2栋102
+//rixiantechnology.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601014889371,"Guangdong Rixian Technology Co., Ltd.",暂无公司中文名称,暂无联系方式,暂无联系地址
+//cnlingyin.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=11000018116024,Guangzhou Lingyin Construction Materials Ltd.,广州灵音建材有限公司,18665570937,广州市荔湾区鹤翎路14号204室部位211室
+//roeasy.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600382131991,Guangzhou Rongtai Hardware Product Limited,广州市荣泰五金制品有限公司,13728028689,广州市白云区同和街同沙路283号广东天健家居装饰广场CQ区一栋二层自建房屋(自编CQ1201-04号)
+//planetcabinetry.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601081692045,"Guangdong Planet Kitchen Cabinetry Co., Ltd.",广东帕兰特橱柜有限公司,18602024705,佛山市南海区桂城街道海五路28号华南国际金融中心1幢1108单元(住所申报)
+//jingruidajiaju.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600689566560,"Sichuan Jing Yida Furniture Co., Ltd.",四川景译达家具有限公司,18215583653,中国(四川)自由贸易试验区成都高新区天府大道中段1388号1栋5层522号
+//aisliving.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601034051068,AIS SMARTI LLC,暂无公司中文名称,暂无联系方式,暂无联系地址
+//oppein.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600368058516,Oppein Home Group Inc.,欧派家居集团股份有限公司,020-36733292,广州市白云区广花三路366号
+//plantlight.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601220116588,"Shenzhen Andy Photoelectric Technology Co., Ltd.",暂无公司中文名称,暂无联系方式,暂无联系地址
+//xinyiyibiao.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600953523865,"Xi'an Xinyi Instrument Technology Co., Ltd.",西安鑫仪仪表科技有限公司,18792812838,陕西省西安市高新区科技五路8号数字大厦16层1605室
+//cabinext.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=62438419548,"Fuzhou Cabinext Furniture Manufacture Co., Ltd.",福州凯比耐家具制造有限公司,0591-87447956,福建省福州市仓山区建新镇洪光村馆后32号
+//ninemore.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600756939307,"Guangdong Naimao Kitchen And Bathroom Technology Co., Ltd.",广东耐猫厨卫科技有限公司,13809810409,佛山市三水区乐平镇乐平大道西4号之三(住所申报)
+//yindugroup.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601029343237,"Henan Yindu Digital Co., Ltd.",河南印都数码科技有限公司,0373-7376002,新乡市平原示范区昆仑山路与永定河路交叉口(中原印刷包装产业园)
+//santopova.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600612843700,"Foshan Santopova Home Co., Limited",佛山胜拓堡华家居有限公司,15013033266,佛山市禅城区雾岗路33号华艺装饰材料物流城北区十座三层15号铺(住所申报)
+//reizjet.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600550970502,"Shenzhen Chuangchengda Precision Manufacturing Co., Ltd.",深圳市创晟达精密制造有限公司,15503698609,深圳市龙岗区横岗街道华侨新村社区荣德时代广场B1513
+//aershin.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=60763966813,"Nantong Aershin Cabinets Co., Ltd.",南通尔昕木业有限公司,0513-66985119,如皋市如城街道兴源大道88号
+//sinewyato.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601240402293,"Shenzhen Xinyu Automation Technology Co., Ltd.",深圳市鑫渝自动化科技有限公司,13421394547,深圳市龙华区福城街道章阁社区章禄街2号金盛发工业园1栋202
+//kingjet.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601246453192,"Dongguan Kingjet Printers Consumables Co., Ltd.",东莞市劲杰办公用品有限公司,15992895111,东莞市长安镇厦边社区银沙路三街3号六楼
+//pianor.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601214546058,"Guangdong Piano Customized Furniture Co.,Ltd",广东皮阿诺科学艺术家居股份有限公司,0760-23630505,中山市阜沙镇上南村
+//yalighome.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600650246078,"Anhui Yalig Intelligent Houseware Co., Ltd.",安徽雅丽家智能家居有限公司,4006679188,长丰县岗集镇
+//zhumingmetal.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601296369591,"Foshan Zhuming Metal Products Co., Ltd.",佛山市著铭金属制品有限公司,18033202292,广东省佛山市顺德区陈村镇勒竹社区吉洲沙更美路42号C5栋之一(住所申报)
+//shuidao.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600750285717,Foshan Aqua Gallery Company Limited,佛山市水岛建材有限公司,18823154533,佛山市禅城区南庄镇季华西路78号佛山市国际陶瓷卫浴城内A区10座13号商铺(住所申报)
+//gzyite-printing.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600891748785,"Guangzhou Yite Technology Co., Ltd.",广州弈特科技有限公司,13246892943,广州市白云区沙太南路617号二楼203房
+//sunika.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601043545344,"Zhengzhou New Century Digital Technology Co., Ltd.",郑州新世纪数码科技股份有限公司,13253551197,郑州市高新区文竹街41号
+//led-slt.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600242988838,"SLT Lighting Technology (Dongguan) Co., Ltd.",东莞市红富照明科技有限公司,13556608010,广东省东莞市黄江镇公常路353号之二2栋201室
+//yvtchina.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601254957937,"Guangzhou Xuanyuju Furniture Co., Ltd.",广州市轩誉居家具有限公司,13580318062,广州市白云区良田东路323号101室、102室
+//etrotech.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601226453943,"Zhuhai Etro Technology Co., Ltd.",珠海亿川科技有限公司,13823027785,珠海市新珠路1010号7楼厂房C区
+//sunplusled.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600216594562,"Sunplus Led Technology Co., Ltd.",深圳市旭联科技有限公司,0755-29083361,深圳市光明新区玉塘街道长圳社区长兴科技工业园40栋四楼西
+//chuangchengda.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601260516380,"Shenzhen Chuang Cheng Da Technology Co., Ltd.",深圳市创晟达科技有限公司,18675591221,深圳市龙岗区横岗街道六约北社区埔厦路80号南方·数字创新产业基地5栋401
+//redfarm.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600817028511,"Shenzhen Redfarm Co., Ltd.",深圳市索拉美科技有限公司,13410833605,深圳市宝安区松岗街道楼岗社区大洋工业区35号厂房4栋202
+//dongguantimes.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600973020778,"Dongguan Times Intelligent Technology Co., Ltd.",东莞市时代智能科技有限公司,13417511236,广东省东莞市黄江镇长龙宏安街1号二栋303室
+//fsshenlan.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601127882633,"Foshan Shenlan Digital Equipment Co., Ltd.",佛山深蓝数码设备有限公司,13416188799,佛山市南海区里水镇沙步工业区沙步中路14号(住所申报)
+//chinavacan.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600186687473,"Guangdong Baineng Home Furniture Co.,Ltd",广东百能家居有限公司,020-82963666,广州市增城区宁西街旺宁路2号之一
+//jiarun1688.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600489037255,"Guangzhou Kayuen Industrial Co., Ltd.",广州市嘉润实业有限公司,020-87479987,广州市白云区龙归街永兴龙兴东南三横路3号3栋、4栋
+//audley.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601205651387,"Zhengzhou Audley Digital Control Equipment Co., Ltd.",郑州奥德利数控设备有限公司,18738182781,河南省郑州市金水区经三路66号金城国际2号楼1单元1801号
+//aiifar.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601162207393,"Guangzhou Aiifa Electronic Products Co., Ltd.",广州爱发电子产品有限公司,13316073548,广州市南沙区大岗镇高沙村高沙工业区新村街13-1号119
+//hongcaiprinter.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601194963164,"Zhengzhou Hongcai Digital Technology Co., Ltd.",郑州宏彩数码科技有限公司,17814640222,郑州高新技术开发区红松路260号郑州乐彩3号楼9层
+//wisdomprint.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601215010215,"Wisdom Printing (Guangzhou) Technology Co., Ltd",廣州永鴻發展有限公司,,RM 611 6\u002FF RICKY CENTRE 36 CHONG YIP STREET KWUN TONG KLN HONG KONG
+//wingwaiepoxy.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600979714745,"Dongguan Rongwei Composite Material Co., Ltd.",东莞市荣威复合材料有限公司,13501555609,广东省东莞市横沥镇月塘路58号3号楼103室
+//gzlongluo.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601068134168,"Guangzhou Longluo Electronic Technology Co., Ltd.",广州市龙洛电子科技有限公司,13342874330,广州市番禺区石碁镇永善村南一路2号(厂房)8栋104
+//dfwryan.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600552751839,"Shouguang Dawn Forest Wood Co., Ltd.",寿光华晨木业有限公司,0536-5290597,寿光市金光街北文圣街南兴安路西(寿光市软件园文化创意大厦711室)
+//potry.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600982301026,"Guangdong Xintai Intelligent Technology Co., Ltd.",广东信泰智能科技有限公司,13925620106,佛山市南海区桂城街道港口路23号宜安科创园10座101房(住所申报)
+//dayankj.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601062707512,"Xiamen Dayan Intelligent Technology Co., Ltd.",厦门大焱智能科技有限公司,13940882255,厦门火炬高新区软件园三期溪西山尾路39号1501室之六
+//zbolym.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600976704659,"Zibo Oulin Intelligent Technology Co., Ltd.",淄博欧林智能科技有限公司,18653321570,山东省淄博市周村区大学城园区创业创新产业园27号楼1号
+//cnmie.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601226075576,CNMI Industrial Corporation,河北金裕新材料有限公司,18600592597,河北省邯郸市峰峰矿区峰峰经济开发区A区
+//kingjetdigital.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601279050915,"Kingjet (guangzhou) Digital Technology Co., Ltd.",广州金捷数码科技有限公司,15322037878,广州市白云区沙太南路617号二楼201房
+//fzbeilijixie.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600987251287,"Fuzhou Bailey Fluid Equipment Co., Ltd.",福州市贝利流体设备有限公司,15880070073,福建省福州市闽侯县南屿镇元峰路小后山76号福建路政工业园10号楼7层
+//pri.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601003153418,"Dongguan Jiechuang Industrial Co., Ltd.",东莞颉创实业有限公司,18684557660,广东省东莞市松山湖园区工业南路14号3栋807室
+//dgfullcolor.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601145595293,Fullcolor Technology Limited,东莞市齐彩数码科技有限公司,13711991696,广东省东莞市虎门镇沙角富民路29号1栋101室
+//fsbst.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=60768909911,"Foshan Sammy's Kitchen Co., Ltd.",佛山市贝思图建材有限公司,0757-83873872,佛山市禅城区雾岗路河南工业区86-90号首层(住所申报)
+//audley-printer.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601222980170,"Zhengzhou Audley Digital Control Equipments Co., Ltd.",郑州奥德利数控设备有限公司,18738182781,河南省郑州市金水区经三路66号金城国际2号楼1单元1801号
+//tzhangxiao.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600768247077,"Taizhou Honkon Sewing Equipment Co., Ltd.",台州市杭啸缝制设备有限公司,13957655764,浙江省台州市椒江区飞跃科创园38幢(自主申报)
+//bropool.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600457696306,"Shenzhen Bropool Industrial Co., Ltd.",深圳市铂尔普实业有限公司,18124019789,深圳市龙岗区龙城街道尚景社区龙福路荣超英隆大厦A座A1110
+//stmega.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601049005851,Shantou Mega Kitchen Cabinet Factory Limited,汕头市美加厨柜厂有限公司,0754-88814689,汕头市濠江区玉新街道河中路40号之一
+//sinowell.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600543176686,"Sinowell (Shanghai) Co., Ltd.",赛诺韦尔科技有限公司,021-55669995,浦东新区高科西路551号北楼301室
+//zsguanda.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601201136328,"Zhongshan Guanda Furniture Manufacturing Co., Ltd.",中山市冠达家具制造有限公司,0760-86507222,中山市板芙镇深湾村(羊七山)
+//pfr.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600267956270,"Jiaxing Pfr Smart Household Co., Ltd.",嘉兴市普菲隆智能家居有限责任公司,15958303066,浙江省嘉兴市平湖市钟埭街道七星路218号A幢1楼
+//jnsunrich.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600962305348,"Jinan Sunrich Industry Co., Ltd.",济南圣瑞驰工贸有限公司,15552551890,山东省济南市长清区大学科技园紫薇路2687号济南西部创新园A座10层B区1006室
+//chinagoodfurniture.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=60810086026,"Hangzhou N & L Furniture Co., Ltd.",杭州诺勒家具有限公司,13588033121,萧山区宁围街道国丰大厦2幢1301室
+//aoclear.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600694562867,"Jiaxing Aokeliya Sanitary Ware Technology Co., Ltd.",嘉兴澳克利亚卫浴科技股份有限公司,0573-85686281,浙江省嘉兴市平湖市新埭镇洁城路283号
+//ketailaser.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=62301893279,"Liaocheng Dongchangfu Ketai Laser Equipment Co., Ltd.",聊城市东昌府区科泰激光设备有限公司,15969601880,山东省聊城市东昌府区闫寺街道海源路路西150米鲁西国际创业园A13-1
+//fdbrush.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600460635777,"Danyang Fly Dragon Brushes & Tools Co., Ltd.",丹阳市飞龙刷具有限公司,0511-86589538,丹阳市练湖工业园区
+//whbrown.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600190416818,"Wuhan Brown Environment&Energy Co., Ltd.",武汉布朗环境能源有限公司,027-61916278,黄陂区武湖农场青龙分场武汉恒心服饰生产织造基地4号车间栋2层
+//hd-a.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601061681107,"Huaibei Huadian Automation Technology Co., Ltd.",淮北市华电自动化科技有限公司,18605613933,安徽省淮北市相山区三堤口街道濉溪路265号源创客控股集团有限公司6号楼A06\u002FA07室
+//shanghairockben02.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601216086483,"Shanghai Rockben Industrial Equipment Manufacturing Co., Ltd",上海岩本工业设备制造有限公司,021-57881877,上海市金山区朱泾镇鸿安路288号3号楼1层
+//hnxinliboiler.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600119244054,"Kaifeng Xinli Boiler Equipment Co., Ltd.",开封新力锅炉设备有限公司,0371-22969166,开封市开发区民营工业园区民和路11号
+//yinengtechnology.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600685630429,"Wuhan Yineng Taike CNC Technology Co., Ltd.",武汉易能泰可数控科技有限公司,13476005178,湖北省鄂州市葛店开发区创业大道商控华顶工业园第19幢3号房第三层
+//suyusonic.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600746625039,"Shanghai Suyu Electronics Co., Ltd.",上海苏豫电子有限公司,021-39170171,嘉定区嘉好路1558号1幢1楼B区
+//suncenter.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601030957704,"Dongguan Suncenter Fluid Pressure Technology Co., Ltd.",东莞赛森特流体科技有限公司,13751350057,广东省东莞市道滘镇虹南路3号之八301室
+//ajflying.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601114670485,"Guangzhou AJ Flying Import&Export Co., Ltd.",广州市安建飞扬进出口有限公司,13600475924,广州市增城区新塘镇创想路8号1栋704室(自编C1栋7F-4单元)
+//zhongdemachinery.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600917975159,"Xingtai Zhongde Machinery Manufacturing Co., Ltd.",邢台中德机械制造有限公司,15690383485,内丘县官庄镇下屯村西北(河北内丘工业园区南园)
+//mattiaswash.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600947250767,"Nantong Balanshi Electromechanical Co., Ltd.",南通巴兰仕机电有限公司,0513-83833200,启东市滨海高新区明珠路
+//fsjss.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601270669329,"Foshan Jinshengchi Hardware Products Co., Ltd.",佛山金盛驰五金制品有限公司,13702964068,佛山市南海区丹灶镇西联三甲开发区
+//rtlaser.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601165355221,"Shandong Raytu Laser Equipment Co., Ltd.",山东锐图激光设备有限公司,13210590999,山东省济南市济阳区回河街道工业园6-9号D车间
+//dinopower.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600054745811,"Ningbo Dino-Power Machinery Co., Ltd.",宁波迪诺机械有限公司,18158267350,浙江省宁波市鄞州区首南街道茶亭庵村
+//boleilaser.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600217861036,"Jinan BL Mechanical Equipment Co., Ltd.",济南博镭机械设备有限公司,0531-88020976,山东省济南市高新区新泺大街大数据产业基地D栋13A-1401
+//huashuojixie.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600556151277,"Shandong Huashuo Machinery Manufacturing Co., Ltd.",山东华硕机械制造有限公司,18678726331,山东省济宁市兖州区新兖镇北环城路166号(明匠智能院内)
+//teconform.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=62384716981,"Suzhou Tecon Construction Technology Co., Ltd.",苏州拓恒建筑科技有限公司,13739177959,苏州市吴中区太湖街道友翔路99号1幢A座9层001-005号
+//koumanlun.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601244954404,"Guangzhou Koumanlun E-Commerce Co., Ltd.",广州市蔻缦纶电子商务有限公司,18674069339,广州市白云区同德街汇华街52号802室
+//xingshengda.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600483297658,"Henan Xingshengda Machinery Technology Co., Ltd.",河南兴晟达机械科技有限公司,18937415000,河南省许昌市长葛市长兴路街道人民路北段众品路北300米
+//zjkolotool.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=60285458871,"Zhejiang Kelong Hardware Co., Ltd.",浙江科隆五金股份有限公司,0573-89380777,桐乡市河山镇工业区长华路51号
+//qdhumanhair.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=62329392028,"Qingdaofengyingxiu Hair Product Co., Ltd.",青岛丰盈秀发制品有限公司,18353235272,山东省青岛市城阳区流亭街道青银高速夏庄收费口西200米
+//lansenpanel.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600912513488,"Zhejiang Jinhua Blue Forest Decoration Materials Co.,Ltd",浙江金华蓝森装饰材料有限公司,0579-89131993,浙江省金华市婺城区白龙桥镇金沙街688号
+//dgkymachine.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600944397843,Dongguan Shilong Ky Nailing Equipment Factory,暂无公司中文名称,暂无联系方式,暂无联系地址
+//maytoptools.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600484131778,"Shandong Maytop Import & Export Co., Ltd.",山东美拓进出口有限公司,18653781325,济宁高新区英萃路东、火炬工业园南侧
+//foyoucosmetics.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601023865536,"Shanghai Foyou Cosmetics Co., Ltd.",上海浩韵化妆品有限公司,15021202158,上海市金山区张堰镇工业区汇科路388号第8幢2层、9幢、10幢
+//cologun.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601212362467,"Hangzhou Color Powder Coating Equipment Co., Ltd.",杭州卡罗弗喷涂设备有限公司,0571-88194898,浙江省杭州市拱墅区万达商业中心4幢1单元1310室
+//stxr.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601204544197,"Shantou Xie Rui Fine Chemical Co., Ltd.",汕头市协睿精细化工有限公司,13415163286,汕头市潮阳区和平镇塘围沟上洋
+//joparr.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600072813010,"Foshan Jopar Machinery Co., Ltd.",佛山市中牌机械有限公司,4008383818,佛山市南海区狮山镇罗村社会管理处招大创业园招北工业区(土名:良军塘)的厂房
+//elihumanhair.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601155866617,"Xuchang Tiancheng Industry Trade Co.,ltd",许昌天成工贸有限公司,0374-8309928,许昌市许繁路南段一公里处路东1489号
+//hwepc.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601198569319,"Shenzhen Hwe Computer Technology Co., Ltd.",深圳市华微电脑技术有限公司,13691941595,深圳市宝安区燕罗街道罗田社区龙山七路2号综合楼101、201、301
+//sdyfjs.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601304572441,"Shandong Yuanfa Metal Manufacturing Co., Ltd.",山东远发金属制造有限公司,,山东省聊城经济技术开发区东城街道牡丹江路南山东中冶石油机械有限公司石油勘探钻井配套器械项目3号车间
+//greatasia.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601257038498,"Shenzhen Great Asia Electronic Co., Ltd.",深圳市格瑞特亚电子有限公司,13420951720,深圳市龙岗区龙岗街道龙西社区龙西鸿倡发工业园1栋厂房6层602
+//fuyunrihua.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600917068078,"Fuyun Packaging (guangzhou) Co., Ltd.",福韵包装（广州）有限公司,18078814939,广州市花都区新雅街镜湖大道35号洪鑫工业园3栋2楼A区
+//datongcn.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601214682901,"Kaifeng Datong Refractories Co., Ltd.",开封市大通耐火材料有限公司,13781152999,河南自贸试验区开封片区五大街CBD总商会大厦1006室
+//yidrinson.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600315711916,"Jiangxi Yijuncheng Industrial Co., Ltd.",江西怡珺成实业有限公司,15979331021,江西省上饶市广丰区上饶高新区芦洋产业园B区双创园7-1栋
+//lcd18.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601245768274,"Shenzhen Mercedes Technology Co., Ltd.",深圳市梅塞德斯科技有限公司,18680351409,深圳市龙岗区南湾街道丹竹头工业区宝丹路8号共创盈工业园标准厂房D栋4楼401
+//zschengze.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601217787366,"Zhongshan Chengze Plastic Products Co., Ltd.",中山市承泽塑胶制品有限公司,18826046159,中山市阜沙镇罗松村阜港北路25号之二
+//yinuojixie.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601107238112,"Wenzhou Yinuo Machinery Co., Ltd.",温州伊诺机械有限公司,13165891778,浙江省温州市龙湾区永兴街道滨海三路568号C1区
+//choicesewing.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=60822409239,"Taizhou Golden-Choice Sewing Machine Co., Ltd.",台州金宣缝制设备有限公司,18958686176,浙江省台州市开发区开发大道东段188号八号楼三层8303
+//hcrefrigeration.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601246603150,"Jiangxi Hengchi Refrigeration Technology Co., Ltd.",江西恒驰制冷科技有限公司,18979683866,江西省吉安市吉州区城南专业市场汶溪路东(B-05-1-B地块)C7栋-2号
+//cnfike.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601259087943,"Guangzhou Fike Auto Parts Co., Ltd,",暂无公司中文名称,暂无联系方式,暂无联系地址
+//airfunoutdoor.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601231802532,"Hangzhou Airfun Outdoor Supply Co., Ltd.",杭州爱帆户外用品有限公司,,浙江省杭州市临平区南苑街道余之城1幢506、507室
+//justtoplhm.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600548740492,"Guangdong Justtop Hardware Product Co., Ltd.",广东杰拓五金制品有限公司,13724052653,海丰县城东镇金园工业区内(泽威绣花厂)左侧(自主申报)
+//jssfny.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600618504061,"Jingjiang Shengfeng Agricultural Machinery Technology Co., Ltd.",暂无公司中文名称,暂无联系方式,暂无联系地址
+//lcvoiern.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601280134860,"Liaocheng Voiern Laser Technology Co., Ltd.",暂无公司中文名称,暂无联系方式,暂无联系地址
+//hzcabinetry.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=10000019847557,"Taishan Hongzhou Cabinet Co., Ltd.",台山市弘宙橱柜有限公司,0750-5626466,台山市台城北坑工业园长兴路12号
+//hzc.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=60794134910,"Foshan Nanhai Hongzhou Wood Co., Ltd.",佛山市南海弘宙木业有限公司,0757-85119815,佛山市南海区里水镇石塘佛坳1号厂房B9座(住所申报)
+//sanyangwood.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600989381986,"Shouguang Sanyang Wood Industry Co., Ltd.",寿光市三洋木制品有限公司,13863618597,寿光市安阳街以南特钢路以东
+//tjzxkj.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601211564990,"Tianjin Zhixiang Technology Development Co., Ltd.",天津祉祥科技发展有限公司,17720100658,天津市武清区京滨工业园京滨睿城4号楼501室-73(集中办公区)
+//haolike.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601280490201,"Guangzhou Haolike Technology Co., Ltd.",广州豪立可科技有限公司,18397316237,广州市番禺区大龙街汉碁大道6号t3科创空间3栋214-215
+//faniao.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601266191107,Guangzhou Faniao Cabinet Co.Ltd.,广州法尼奥进出口贸易有限公司,15897411235,广州市天河区棠安路188号305房
+//balom.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601246590850,"Hefei Balom Technical Development Co., Ltd.",合肥柏隆科技发展有限公司,4006111779,安徽省合肥市肥西县紫蓬镇工业聚集区
+//grandseadoors.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601093751546,"Foshan Grandsea Building Material Co., Ltd.",佛山市格然帝门窗有限公司,18565419960,佛山市南海区狮山镇兴贤山园佛山市三才实业有限公司内自编5号(住所申报)
+//allureglobal.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601240386415,"Allure Cabinetry (foshan) Co., Ltd.",佛山市爱禄尔家居建材有限公司,18607575536,佛山市顺德区乐从镇乐从居委会东区兴乐商业城中座壹层B122号
+//scaquagallery.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=10000005664004,Si Chuan Aqua Gallery Company Limited,四川水岛建材科技有限公司,13981900957,四川省成都市成华区龙绵街1666号1栋2单元9层903号
+//gzsnimay.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=10000003034504,"Guangzhou Snimay Home Collection Co., Ltd.",广州诗尼曼家居股份有限公司,4008832239,广州市番禺区石楼镇莲花山联围村浮莲岗(主厂房、办公楼)
+//allurecabinetry.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600492056939,"Allure Cabinetry  (Foshan) Co.,Ltd",佛山市爱禄尔家居建材有限公司,18607575536,佛山市顺德区乐从镇乐从居委会东区兴乐商业城中座壹层B122号
+//pafurniture.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1600876090327,"Guangdong Baishan Furniture Co., Ltd.",广东百山家居有限公司,0757-85121158,佛山市南海区里水镇和桂工业园A区和桂大道16号部分厂房(车间1、2、3)
+//ghgalaxyhome.en.alibaba.com/factory.html?wx_navbar_transparent=true&productId=1601011823747,"Foshan Baihuo Home Technology Co., Ltd.",百获家居（佛山）有限公司,13929980123,佛山市顺德区乐从镇东平社区君兰路8号宝能金融大厦1506室(住所申报)

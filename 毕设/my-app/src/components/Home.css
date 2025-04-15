@@ -1,0 +1,130 @@
+/* 通用样式 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #f4f4f9; /* 页面背景颜色 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  width: 100%; /* 设置宽度为 100%，铺满页面 */
+  max-width: none; /* 移除最大宽度限制 */
+  text-align: center;
+  background-color: #ffffff; /* 主体背景颜色 */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* 添加顶部外边距 */
+}
+
+/* 搜索栏样式 */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+/* 表格样式 */
+.table-container {
+  width: 100%; /* 表格容器宽度铺满页面 */
+  overflow-x: auto; /* 适配小屏幕 */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: fixed; /* 固定表格布局 */
+}
+
+thead {
+  background-color: #f8f8f8;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  overflow: hidden; /* 隐藏超出内容 */
+  white-space: nowrap; /* 禁止换行 */
+  text-overflow: ellipsis; /* 超出内容显示省略号 */
+  position: relative;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 页脚样式 */
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+  width: 100%;
+  text-align: center;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.pagination input {
+  padding: 5px;
+  width: 80px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+#root {
+  width: 1960px; /* 或者你可以使用百分比或其他单位 */
+  height: 3600px;
+}
+th:nth-child(1), td:nth-child(1) { width: 10%; } /* 序号 */
+th:nth-child(2), td:nth-child(2) { width: 30%; } /* 商品名称 */
+th:nth-child(3), td:nth-child(3) { width: 20%; } /* 价格 */
+th:nth-child(4), td:nth-child(4) { width: 30%; } /* 商品链接 */
+th:nth-child(4), td:nth-child(4) { width: 10%; } /* 来源平台 */
