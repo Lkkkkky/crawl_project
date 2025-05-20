@@ -1,6 +1,6 @@
 '''
 =========================================================    
-       @File     : 实现.py
+       @File     : 实现_html.py
        @IDE      : PyCharm
        @Author   : Jing3
        @Date     : 2025/2/19 17:38
@@ -9,7 +9,7 @@
 '''
 import requests
 import execjs
-res=execjs.compile(open('enc.js','r',encoding='utf-8').read()).call('enc','17896686831','00000000ab')
+res=execjs.compile(open('enc.js','r',encoding='utf-8').read()).call('enc','13787058992@bj4923','aaaa5599')
 headers = {
     "Accept": "application/json, text/plain, */*",
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",

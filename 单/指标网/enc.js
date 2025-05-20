@@ -4898,7 +4898,6 @@ function enc(username,password){
 e=s()
 r=s()
 // rsa
-
 // aes
 key=RSA_Public_Encrypt(e)
 iv_=r

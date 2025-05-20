@@ -32,7 +32,7 @@ def login(phone):
 
     url = "https://m.4008117117.com/api/user/web/login/identify"
     data = {
-        "password": "20030531lky",
+        "password": "030109smz",
         "identify": phone,
         "isApp": True,
         # "deviceId": "6436CEBD-C2AC-4A5A-BB40-45154922E6DF",
@@ -130,9 +130,9 @@ def shiming(token):
         "Hm_lpvt_6a5f1ed482525d435338c545ad0e23b4": "1742550686"
     }
     url = "https://issue.4008117117.com/casting/authentication/realName"
-    name='李铠阳'
-    sfz='445122200305304715'
-    mobile='17819461984'
+    name='沈铭哲'
+    sfz='445122200301093711'
+    mobile='13727901673'
     ret = execjs.compile(open('enc.js', 'r', encoding='utf-8').read()).call('enc',name,sfz,mobile)
     data = ret
 
@@ -142,7 +142,7 @@ def shiming(token):
 
 
 def sm():
-    with open('成功手机号-sy.txt', 'r', encoding='utf-8') as file:
+    with open('成功手机号_未sm_dg.txt', 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
     # 去除每行的换行符并存储到数组中

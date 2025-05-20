@@ -10,7 +10,7 @@ import os
 # 添加全局计数器
 failure_count = 0
 
-pwd='20030531lky'
+pwd='030109smz'
 
 def get_captcha():
     headers = {
@@ -259,17 +259,17 @@ def setpwd(sms_code,phone):
     try:
         resp_json = response.json()
         if resp_json.get("data") == True and resp_json.get("success") == True:
-            requests.get('https://api.day.app/YToREckaeQXotQJPrn7MWa/做号成功！！！！！')
+            # requests.get('https://api.day.app/YToREckaeQXotQJPrn7MWa/做号成功！！！！！')
             logger.info(f"手机号 {phone} 重置密码成功，保存到文件")
             # 将成功的手机号保存到txt文件
-            with open("成功手机号-sy.txt", "a") as f:
+            with open("成功手机号_未sm_dg.txt", "a") as f:
                 f.write(f"{phone}\n")
     except Exception as e:
         logger.error(f"解析响应失败: {e}")
-user_account='db9d44ce09b33035e60f817d368429e124b49f64671f21ed'
-user_key='876bacf58d02fd8080c8fb9a1cb6acb6d473ed0abc06dee8'
+user_account='815c0a441eeb520ad058a616d81c814cce64f3a7433e0c2b'
+user_key='3c07f8f1a3ebcef2ac74bb19c2bd663ac4e9c7bbfd347247'
 haozhu_token = 豪猪模块.login(user_account,user_key)
-with open('成功手机号_实名.txt', 'r', encoding='utf-8') as file:
+with open('成功手机号_未sm_dg.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 
 cnt=500

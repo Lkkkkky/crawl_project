@@ -3,38 +3,29 @@ import time
 import csv
 import websockets
 import json
-from curl_cffi import requests
+from curl_cffi import requests  # 假设你在用 curl_cffi 请求
 from faker.generator import random
-from encrypt_ws_client import EncryptClient
 
-f= open('temu商详.csv',mode='a+',encoding='utf-8',newline='')
+f= open('temu商详2.csv',mode='w',encoding='utf-8',newline='')
 offset=0
 csv_writer=csv.DictWriter(f,fieldnames=['good_title','current_sku_id','sales_num','link_url','goods_id','price_info'])
 
-import asyncio
-import websockets
+csv_writer.writeheader()
 
+async def receive_message(websocket):
 
+        try:
+            await websocket.send('')
+            print("等待浏览器发送参数...")
+            msg = await websocket.recv()
+            print("收到参数：", msg)
+            global offset
+            return  msg
+        except websockets.exceptions.ConnectionClosed:
+            print("连接关闭")
 
-
-
-async def get_anti_content():
-    uri = "ws://127.0.0.1:1234"
-    async with websockets.connect(uri) as websocket:
-        await websocket.send("get_anti")  # 请求浏览器计算 anti-content
-        response = await websocket.recv()
-        return response
-
-# 示例调用：
-def fetch_data():
-    anti = asyncio.run(get_anti_content())
-    print("拿到 anti-content:", anti)
-    return anti
-    # 之后你可以用这个 anti 值去拼接 curl 请求了
-
-for i in range(50):
-    msg = fetch_data()
-    print("🗝 收到加密结果：", msg)
+def get_info():
+    msg=asyncio.run(receive_message())
     headers = {
         "accept": "application/json, text/plain, */*",
         "accept-language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
@@ -85,7 +76,7 @@ for i in range(50):
     data = {
         "scene": "search",
         "pageSn": 10099,
-        "offset": int(0+offset),
+        "offset": 0,
         "listId": "84764efff7b74b7aa2785f22bf59d4d3",
         "pageSize": 120,
         "query": "s",
@@ -95,8 +86,8 @@ for i in range(50):
     }
 
     data = json.dumps(data, separators=(',', ':'))
-    response = requests.post(url, headers=headers, cookies=cookies, params=params, data=data,
-                                proxies={'http': '127.0.0.1:33210', 'https': '127.0.0.1:33210'})
+    response = requests.post(url, headers=headers,  params=params, data=data,
+                             proxies={'http': '127.0.0.1:33210', 'https': '127.0.0.1:33210'})
     print(response.text)
 
     offset += 80
@@ -115,12 +106,14 @@ for i in range(50):
 
     # print(response.text)
     print(response)
-    time.sleep(3)
+    time.sleep(random.randint(1, 10))
+async def main():
+    print("WebSocket 服务启动中...")
+    async with websockets.serve(receive_message, '127.0.0.1', 1234):
+        await asyncio.Future()  # 永远运行
 
-
-
-
-
-
-
-
+if __name__ == "__main__":
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        print("\n服务手动关闭。")
