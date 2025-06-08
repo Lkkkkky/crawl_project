@@ -14,7 +14,7 @@ import csv
 
 from twisted.conch.ssh.session import packRequest_window_change
 
-fi= open('抽签详细_dg.csv',mode='a+',encoding='utf-8',newline='')
+fi= open('抽签详细_京剧_dg).csv',mode='a+',encoding='utf-8',newline='')
 # 字典写入
 csv_writer=csv.DictWriter(fi,fieldnames=['手机号','密码','签号'])
 # 写入表头
@@ -87,7 +87,6 @@ def get_nft_ck(ck):
 
     print(response.cookies)
 
-
 def get_nft_token(ck2):
     headers = {
         "Host": "issue.4008117117.com",
@@ -142,7 +141,7 @@ def chouqian(tk):
         "Accept": "*/*",
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
         "Authorization": tk,
-        "Referer": "https://issue.4008117117.com/pages/collectionDetail/collectionBuy?id=37&returnURL=https%3A%2F%2Fissue.4008117117.com",
+        "Referer": "https://issue.4008117117.com/pages/collectionDetail/collectionBuy?id=41&returnURL=https%3A%2F%2Fissue.4008117117.com",
         "Accept-Language": "zh-CN,zh-Hans;q=0.9"
     }
     cookies = {
@@ -156,7 +155,7 @@ def chouqian(tk):
         "acw_tc": "1a0c399a17458565096836130e007c5e4540fc7a384746c40a82842e93648d",
         "HMACCOUNT": "AD2F251C623B892A"
     }
-    url = "https://issue.4008117117.com/casting/collection/reservation/50"
+    url = "https://issue.4008117117.com/casting/collection/reservation/57"
     response = session.get(url, headers=headers).json()
 
     print(response)
@@ -165,7 +164,7 @@ def chouqian(tk):
 #
 
 def task():
-    with open('抽签详细_dg.csv', 'r', encoding='utf-8') as file:
+    with open('抽签详细.csv', 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
     # 去除每行的换行符并存储到数组中
@@ -173,27 +172,26 @@ def task():
 
         for i in lines[1:-1]:
             # print(i)
-            phone=i.split(',')[0].strip()
-            password=i.split(',')[1].strip()
-
-            ck=login(phone,password)
-            get_nft_ck(ck)
-            tk=get_nft_token(ck)
-            # print(tk)
-            # changeauth(ck)
-            # num=chouqian(tk)
-            check(phone,tk)
-            # dict={
-            #     '手机号':i,
-            #       '密码':password,
-            #       '签号':num
-            #     }
+            try:
+                phone=i.split(',')[0].strip()
+                password=i.split(',')[1].strip()
+                ck=login(phone,password)
+                get_nft_ck(ck)
+                tk=get_nft_token(ck)
+                print(tk)
+                # changeauth(ck)
+                # num=chouqian(tk)
+                check(phone,tk)
+            except:
+                num=''
+                print(phone,'登录失败')
+            # dict = {
+            #     '手机号': i,
+            #     '密码': password,
+            #     '签号': num
+            # }
             # csv_writer.writerow(dict)
-
-
-
 def check(phone,tk):
-
     headers = {
         "Accept": "*/*",
         "Accept-Language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
@@ -201,7 +199,7 @@ def check(phone,tk):
         "Cache-Control": "no-cache",
         "Connection": "keep-alive",
         "Pragma": "no-cache",
-        "Referer": "https://issue.4008117117.com/pages/collectionDetail/collectionBuy?id=37&returnURL=https%3A%2F%2Fissue.4008117117.com",
+        "Referer": "https://issue.4008117117.com/pages/collectionDetail/collectionBuy?id=41&returnURL=https%3A%2F%2Fissue.4008117117.com",
         "Sec-Fetch-Dest": "empty",
         "Sec-Fetch-Mode": "cors",
         "Sec-Fetch-Site": "same-origin",
@@ -219,8 +217,7 @@ def check(phone,tk):
         "draco_local": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsb2dpbiIsInBhdGgiOiIvIiwidG9rZW5LZXkiOiJmNmJlMzExYTJhMDE0ODE3M2E4ZDg4ZDI5NGYyZTU1ZmVkMWJmNzJkMzI2MGVjNmJiM2YxMjg4YTA1ZmUzMTU4IiwibmJmIjoxNzQ1OTAwMTE2LCJkb21haW4iOiI0MDA4MTE3MTE3LmNvbSIsImlzcyI6ImRyYWNvIiwidGVuYW50SWQiOjEsImV4cGlyZV90aW1lIjoyNTkyMDAwLCJleHAiOjE3NDg0OTIxMTYsImlhdCI6MTc0NTkwMDExNn0.AKcKQL4T-pWwS9ncSI9a46Cr0g5I2Fk6h1C9Z2RW1bY",
         "Hm_lpvt_6a5f1ed482525d435338c545ad0e23b4": "1745900704"
     }
-    url = "https://issue.4008117117.com/casting/collection/anonymous/37"
-
+    url = "https://issue.4008117117.com/casting/collection/anonymous/41"
     response = requests.get(url, headers=headers, cookies=cookies).json()
     if response['data']['reservationStatus']==5:
         print(f'{phone}中签啦')

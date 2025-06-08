@@ -26,7 +26,7 @@ def login(api_account,api_key):
     #返回令牌
     return token
 def get_phone(token,item_id):
-    response = requests.get(f'https://api.haozhuma.com/sms/?api=getPhone&token={token}&sid={item_id}&ascription=2')#只取实卡
+    response = requests.get(f'https://api.haozhuma.com/sms/?api=getPhone&token={token}&sid={item_id}&uid=56080-BZ3VPZ1B0B')#只取实卡
     #
     #返回获取到的手机号
     # logger.info(response.text)
@@ -60,7 +60,7 @@ def cancelRecv(token):
 #如果不来码  不再重新获取
 def get_yzm_no(token,item_id,phone):
     for i in range(60):  # 将循环次数从100改为60
-        response = requests.get(f'https://api.haozhuma.com/sms/?api=getMessage&token={token}&sid={item_id}&phone={phone}')#只取实卡
+        response = requests.get(f'https://api.haozhuma.com/sms/?api=getMessage&token={token}&sid={item_id}&phone={phone}&uid=56080-BZ3VPZ1B0B')#只取实卡
         if(response.json()['code']=='0'):
             logger.info(response.text)
             #返回获取到的验证码
